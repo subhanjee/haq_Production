@@ -14,6 +14,7 @@
     "url": "git+https://github.com/creativetimofficial/ct-material-kit-react.git"
   },
   "dependencies": {
+    "@craco/craco": "^7.1.0",
     "@emotion/cache": "11.10.7",
     "@emotion/react": "11.10.6",
     "@emotion/styled": "11.10.6",
@@ -37,12 +38,10 @@
     "web-vitals": "3.3.1"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "lint": "eslint ./src",
-    "prettify": "prettier --write ."
+    "start": "craco start",
+    "build": "craco build",
+    "test": "craco test",
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": [
